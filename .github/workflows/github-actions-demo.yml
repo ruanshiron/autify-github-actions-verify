@@ -5,7 +5,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Autify trigger
       - uses: autifyhq/actions-web-test-run@v2
         with:
           access-token: ${{ secrets.AUTIFY_WEB_ACCESS_TOKEN }}
