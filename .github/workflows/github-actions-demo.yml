@@ -2,9 +2,11 @@ name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
-  steps:
-    - name: Autify trigger
-    - uses: autifyhq/actions-web-test-run@v2
-      with:
-        access-token: ${{ secrets.AUTIFY_WEB_ACCESS_TOKEN }}
-        autify-test-url: https://app.autify.com/projects/00/scenarios/000
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Autify trigger
+      - uses: autifyhq/actions-web-test-run@v2
+        with:
+          access-token: ${{ secrets.AUTIFY_WEB_ACCESS_TOKEN }}
+          autify-test-url: https://app.autify.com/projects/00/scenarios/000
