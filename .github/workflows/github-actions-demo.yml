@@ -9,3 +9,5 @@ jobs:
         with:
           access-token: ${{ secrets.AUTIFY }}
           autify-test-url: https://app.autify.com/projects/627/test_plans/314258
+          wait: true
+          timeout: 300
