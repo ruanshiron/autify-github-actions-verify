@@ -7,5 +7,5 @@ jobs:
     steps:
       - uses: autifyhq/actions-web-test-run@v2
         with:
-          access-token: ${{ secrets.AUTIFY_WEB_ACCESS_TOKEN }}
-          autify-test-url: https://app.autify.com/projects/00/scenarios/000
+          access-token: ${{ secrets.AUTIFY }}
+          autify-test-url: https://app.autify.com/projects/627/test_plans/314258
